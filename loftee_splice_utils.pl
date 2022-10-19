@@ -1,8 +1,8 @@
 use strict;
 use Bio::EnsEMBL::Variation::Utils::VariationEffect qw(overlap);
 
-require "maxEntScan/score3.pl";
-require "maxEntScan/score5.pl";
+require "score3.pl";
+require "score5.pl";
 
 sub mes_donor_cache {
     my ($cache, $seq) = @_[0..1];
